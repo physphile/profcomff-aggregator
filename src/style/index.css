@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.navbar-root {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+:root {
+    --toolbar-height: 56px;
+    --color-primary: #00004b;
+    --text-color-primary: white;
+    --navbar-height: var(--toolbar-height);
+    --color-secondary: rgba(255, 139, 0, 1);
+}
+
+.container {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
